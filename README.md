@@ -1,4 +1,4 @@
-# 🛡️ Oximy Shield
+# Oximy Shield
 
 **Enterprise AI Governance — Chrome Extension**
 
@@ -26,13 +26,13 @@ Everything runs locally. No data leaves your browser unless you configure a back
 
 ## Features
 
-### 🔍 AI Tool Detection
+### AI Tool Detection
 - **40+ tools** recognised automatically by domain — ChatGPT, Claude, Gemini, Perplexity, Cursor, GitHub Copilot, Notion AI, Midjourney, Microsoft Copilot, and more
 - Categorised as: LLM Chat, Coding Assistant, Research, Writing, Image Generation, Enterprise AI
 - First-seen detection triggers a "New Tool" notification
 - Deduplication — one event per navigation, not one per `onUpdated` fire
 
-### 🔒 Sensitive Data Detection
+### Sensitive Data Detection
 
 | Pattern | Severity |
 |---------|---------|
@@ -49,12 +49,12 @@ Everything runs locally. No data leaves your browser unless you configure a back
 - Typed content monitored with 2s debounce — high/critical only
 - All sensitive content **redacted locally** before anything leaves the page
 
-### ⚙️ Policy Engine
+### Policy Engine
 - Approved and blocked domain lists
 - Per-rule actions: `allow`, `warn`, `block`, `allow_with_logging`
 - Policy violations written to the event log and dashboard KPIs
 
-### 📊 Dashboard
+### Dashboard
 - KPI cards with real week-over-week trend percentages
 - 14-day usage trend chart built from real browsing activity
 - Category breakdown pie chart
@@ -85,7 +85,7 @@ npm run build
 2. Toggle **Developer mode** on
 3. Click **Load unpacked**
 4. Select the `dist/` folder
-5. Pin the extension from the toolbar 🧩
+5. Pin the extension from the toolbar 
 
 ### Verify it works
 
@@ -94,7 +94,7 @@ npm run build
    ```
    sk-testABCDEFGHIJKLMNOPQRSTUVWXYZ1234567890abc
    ```
-3. Red banner: **🚨 CRITICAL Risk — OpenAI API Key detected**
+3. Red banner: **CRITICAL Risk — OpenAI API Key detected**
 4. Open Dashboard → Events tab — redacted event is logged
 
 ### Run tests
