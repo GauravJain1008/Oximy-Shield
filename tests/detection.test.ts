@@ -70,7 +70,7 @@ describe('analyzeText', () => {
   });
 
   it('detects Stripe secret keys', () => {
-    const text = 'STRIPE_SECRET_KEY=REMOVED_STRIPE_KEY';
+    const text = 'STRIPE_SECRET_KEY=TEST_KEY_123456';
     const result = analyzeText(text);
     expect(result.hasRisk).toBe(true);
     expect(result.matches.some(m => m.type === 'stripe_key')).toBe(true);
