@@ -190,10 +190,6 @@ node backend/server.js
 
 ---
 
-## Contributing
-
-See [CONTRIBUTING.md](CONTRIBUTING.md) for the full guide.
-
 ```bash
 # Add a new AI tool detection
 # 1. src/services/toolRegistry.ts → KNOWN_AI_TOOLS
@@ -207,10 +203,6 @@ See [CONTRIBUTING.md](CONTRIBUTING.md) for the full guide.
 Branch from `dev`, not `main`. PR titles follow Conventional Commits.
 
 ---
-
-## Security
-
-See [SECURITY.md](SECURITY.md) to report a vulnerability.
 
 **Permissions used:**
 
@@ -239,7 +231,3 @@ See [CHANGELOG.md](CHANGELOG.md). To publish a release:
 ```
 
 ---
-
-## License
-
-[MIT](LICENSE) — © 2025 Oximy Shield Contributors
