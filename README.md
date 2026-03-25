@@ -219,15 +219,16 @@ Branch from `dev`, not `main`. PR titles follow Conventional Commits.
 
 ## Releases
 
-See [CHANGELOG.md](CHANGELOG.md). To publish a release:
+Oximy Shield is currently in active development.
+
+For the hackathon demo, we are using version v1.0.0 with core features:
+- AI tool detection
+- Sensitive data detection
+- Policy enforcement
+- Dashboard insights
+
+Future versions will expand detection coverage and team-level analytics.
 
 ```bash
-# 1. Bump version in package.json + public/manifest.json
-# 2. Update CHANGELOG.md
-# 3. git commit -m "chore: release v1.4.0"
-# 4. git tag v1.4.0
-# 5. git push origin main --tags
-# → GitHub Actions builds, zips, and creates the release automatically
-```
 
 ---
