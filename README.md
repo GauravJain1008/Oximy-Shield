@@ -4,7 +4,6 @@
 
 Detect shadow AI tools, prevent sensitive data leaks, enforce policy, and get real-time insights — all from your browser, all locally.
 
-[![CI](https://github.com/YOUR_ORG/oximy-shield/actions/workflows/ci.yml/badge.svg)](https://github.com/YOUR_ORG/oximy-shield/actions/workflows/ci.yml)
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
 [![Manifest V3](https://img.shields.io/badge/Chrome-Manifest%20V3-green.svg)](https://developer.chrome.com/docs/extensions/mv3/)
 [![TypeScript](https://img.shields.io/badge/TypeScript-5.4-blue)](https://www.typescriptlang.org/)
